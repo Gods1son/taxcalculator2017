@@ -4,36 +4,36 @@ html{
 }
 
 .title {
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .outcome {
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 .incometype {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .incometype2 {
-    font-size: 4em;
+    font-size: 1.5em;
 }
 
 #results {
-    margin-left: 19vw;
+    margin-left: 10px;
     border: 2px groove navy;
-    width:50vw;
+    width:86vw;
     padding:30px 30px 30px 30px;
     background-color: beige;
 }
 
 #explain {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #notecontainer {
-    font-size: 1.3em;
+    font-size: 1em;
     margin-left: 5vw;
     margin-top: 20px;
 }
