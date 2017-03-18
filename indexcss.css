@@ -1,0 +1,39 @@
+html{
+    background-color: blanchedalmond;
+    border: 10px ridge navy;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.outcome {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.incometype {
+    font-size: 2.5em;
+}
+
+.incometype2 {
+    font-size: 4em;
+}
+
+#results {
+    margin-left: 19vw;
+    border: 2px groove navy;
+    width:50vw;
+    padding:30px 30px 30px 30px;
+    background-color: beige;
+}
+
+#explain {
+    font-size: 1.5em;
+}
+
+#notecontainer {
+    font-size: 1.3em;
+    margin-left: 5vw;
+    margin-top: 20px;
+}

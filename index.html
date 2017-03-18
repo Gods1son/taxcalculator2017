@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Tax Calc</title>
+    <script src="indexjs.js"></script>
+    <link rel="stylesheet" href="indexcss.css">
+    </head>
+<body>
+    <h1 style="text-align:center;font-size:5em;margin-bottom:10px;">Tax Calculator for 2017</h1>
+    <span class="incometype2" style="margin-left:20vw;"> Whats your income:</span><br> <input type="text" id="income" class="incometype" placeholder="type income here (no $ pls)" autofocus style="margin-left:5vw;margin-top:20px;">
+    <button id="calculate" onclick="test()" class="incometype">Calculate my taxes</button><br><br><br>
+    <div style="display:none;margin-top:30px;margin-bottom:1px;" id="results">
+    <span class="title">Federal Tax Payable:</span>   <span class="outcome" id="federaltax"></span><br><br>
+    <span class="title">Ontario Tax Payable:</span>   <span class="outcome" id="ontariotax"></span><br><br>
+    <span class="title">Total Tax Payable:</span>   <span class="outcome" id="totaltax"></span><br><br>
+    <span class="title">Federal Marginal Tax Rate: </span>    <span class="outcome" id="marginaltaxrate"></span><br><br>
+    <span class="title">Provincial Marginal Tax Rate:</span>     <span class="outcome" id="provmarginaltaxrate"></span><br><br>
+    <span class="title">Take Home Pay:</span> <span class="outcome" id="takehomepay"></span>
+    </div>
+    <br>
+    <div id="explaincontainer" style="display:none;padding:20px;margin-top:-20px">
+    <span id="explain"></span>
+    </div>
+    <div id="notecontainer">
+    <span id="note" style="display:none;"><i><b>NOTE!!! </b> The only credit used is the personal amount and the surcharge has been added as well. <br> A -ve amount in taxes indicates that you will recieve money and +ve amount means you have to pay the amount.<br>
+    Thanks for using this service</i>
+    </span>
+        </div>
+    </body>
+</html>
