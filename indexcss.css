@@ -21,10 +21,10 @@ html{
 }
 
 #results {
-    margin-left: 10px;
+    margin-left: 5px;
     border: 2px groove navy;
-    width:86vw;
-    padding:30px 30px 30px 30px;
+    width:auto;
+    padding:15px 5px 15px 10px;
     background-color: beige;
 }
 
