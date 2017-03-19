@@ -7,8 +7,10 @@
     </head>
 <body>
     <h1 style="text-align:center;font-size:2em;margin-bottom:10px;">Tax Calculator for 2017</h1>
-    <span class="incometype2" style="margin-left:20vw;"> Whats your income:</span><br> <input type="text" id="income" class="incometype" placeholder="type income here (no $ pls)" autofocus style="margin-left:5px;margin-top:10px;margin-bottom:5px;width:250px">
-    <button id="calculate" onclick="test()" class="incometype">Calculate my taxes</button><br><br><br>
+    <span class="incometype2" style="margin-left:20vw;"> Whats your income:</span><br> <input type="text" id="income" class="incometype" placeholder="type income here (no $ pls)" autofocus style="margin-left:5px;margin-top:10px;margin-bottom:5px;width:270px">
+    <button id="calculate" onclick="test()" class="incometype">Calculate my taxes</button><br><br>
+    <img src="loading3.gif" id="loading" width="40%" style="margin-left:10px;display:none;">
+    <br>
     <div style="display:none;margin-top:10px;margin-bottom:1px;" id="results">
     <span class="title">Federal Tax Payable:</span>   <span class="outcome" id="federaltax"></span><br><br>
     <span class="title">Ontario Tax Payable:</span>   <span class="outcome" id="ontariotax"></span><br><br>

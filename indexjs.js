@@ -1,4 +1,11 @@
 function test(){
+document.getElementById("results").style.display = "none";
+document.getElementById("explaincontainer").style.display = "none";
+document.getElementById("note").style.display = "none";
+document.getElementById("loading").style.display = "block";
+
+setTimeout(function hideloading(){document.getElementById("loading").style.display = "none";
+
 var income = document.getElementById("income").value;
 var federaltax = document.getElementById("federaltax");
 income = parseFloat(income.replace(/,/g, ''));
@@ -237,4 +244,5 @@ if (income <= 45916){
     document.getElementById("explain").innerHTML = "Your income calculation is completed...Your federal tax to be paid is  $" + federaltaxpayable + " your ontario tax to be paid is  $" + ontariotaxpayable + " your total tax to be paid is  $" + totaltaxpayable + " your federal marginal tax rate(MTR) is  " + marginalratepercent + " and your Ontario marginal tax rate(MTR) is  " + provmarginalratepercent + " and your final take home pay is  $" + takehomepayamount;
     document.getElementById("explaincontainer").style.display = "block";
     document.getElementById("note").style.display = "block";
+                                  },2000)
 }
